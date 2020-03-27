@@ -10,6 +10,7 @@ def line(katz_deli)
       print "#{index + 1}. #{person} "
     end
     a.join
+  end 
 end
 
 def take_a_number(katz_deli, name)
