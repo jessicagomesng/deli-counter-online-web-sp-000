@@ -10,10 +10,10 @@ def line(katz_deli)
       print "#{index + 1}. #{person} "
     end
     a.join
-  end 
+  end
 end
 
 def take_a_number(katz_deli, name)
-  position = katz_deli.index(name) + 1
+  position = katz_deli.index(name)+1
   puts "Welcome, #{name}. You are number #{position} in line."
 end
