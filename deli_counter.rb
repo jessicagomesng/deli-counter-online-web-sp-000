@@ -7,7 +7,6 @@ def line
 
   else
     "The line is currently: " +
-    katz_deli.map.each_with_index do |person, index|
-      print "#{index + 1}. #{person}"
-    end
+    katz_deli.map.each_with_index {|person, index|
+      print "#{index + 1}. #{person}"}.join(" ")
 end
