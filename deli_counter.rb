@@ -9,4 +9,5 @@ def line
     katz_deli.each_with_index do |person, index|
       new_string = print "#{index + 1}. #{person}"
     end
+     "The line is currently:" + new_string 
 end
