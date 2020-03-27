@@ -6,7 +6,6 @@ def line
     "The line is currently empty."
 
   else
-    "The line is currently: " +
     a = katz_deli.each_with_index do |person, index|
       print "#{index + 1}. #{person}"
     end
