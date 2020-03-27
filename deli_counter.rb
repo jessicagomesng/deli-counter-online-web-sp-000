@@ -10,6 +10,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, index|
       new_string << "#{index + 1}. #{person} "
     end
+    puts "The line is currently:" + new_string
   end
 end
 
