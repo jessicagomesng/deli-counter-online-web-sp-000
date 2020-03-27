@@ -7,5 +7,6 @@ def line
 
     "The line is currently:"
     katz_deli.each_with_index do |person, index|
-      print "#{index + 1}. #{person}"
+      new_string = print "#{index + 1}. #{person}"
+    end
 end
