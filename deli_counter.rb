@@ -8,7 +8,7 @@ def line(katz_deli)
   else
     new_string = ""
     katz_deli.each_with_index do |person, index|
-      string << "#{index + 1}. #{person} "
+      new_string << "#{index + 1}. #{person} "
     end
   end
 end
