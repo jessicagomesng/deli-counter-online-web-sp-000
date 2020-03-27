@@ -6,7 +6,8 @@ def line
     "The line is currently empty."
 
   else
-    new_string = katz_deli.each_with_index do |person, index|
+    New_string = ""
+    New_string = katz_deli.each_with_index do |person, index|
       print " #{index + 1}. #{person}"
     end
      "The line is currently:" + new_string
