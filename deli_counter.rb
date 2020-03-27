@@ -7,7 +7,7 @@ def line(katz_deli)
 
   else
     katz_deli.each_with_index do |person, index|
-      print "#{index + 1}. #{person}"
+      print "#{index + 1}. #{person} "
     end
     a.join
 end
